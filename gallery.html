@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="gallery.css" />
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <header>
+        <h1>Bob the Barber</h1>
+      </header>
+      <div id="links">
+        <p>
+          <a href="index.html">HOME</a>
+          <a href="about.html">ABOUT</a>
+          <a href="gallery.html">GALLERY</a>
+          <a href="https://google.com">BLOG</a>
+          <a href="https://google.com">CONTACT</a>
+        </p>
+      </div>
+      <div class="gallery">
+        <h2 id="bold">GALLERY</h2>
+      </div>
+      <table>
+        <tr>
+          <td id="top-left" onclick="handleClick(this)">
+            <img src="portrait1.jpg" />
+          </td>
+          <td id="top-middle" onclick="handleClick(this)">
+            <img src="portrait2.jpg" />
+          </td>
+          <td id="top-right" onclick="handleClick(this)">
+            <img src="portrait3.jpg" />
+          </td>
+        </tr>
+        <tr>
+          <td id="mid-left" onclick="handleClick(this)">
+            <img src="portrait4.jpg" />
+          </td>
+          <td id="center" onclick="handleClick(this)">
+            <img src="portrait5.jpg" />
+          </td>
+          <td id="mid-right" onclick="handleClick(this)">
+            <img src="portrait6.jpg" />
+          </td>
+        </tr>
+        <tr>
+          <td id="bot-left" onclick="handleClick(this)">
+            <img src="portrait7.jpg" />
+          </td>
+          <td id="bot-middle" onclick="handleClick(this)">
+            <img src="portrait8.jpg" />
+          </td>
+          <td id="bot-right" onclick="handleClick(this)">
+            <img src="portrait9.jpg" />
+          </td>
+        </tr>
+      </table>
+    </div>
+    <footer>
+      <p id="copyright">© 2023 by Bob the Barber. All rights reserved.</p>
+      <div class="foot">
+        <div id="socials">
+          <img id="twitter" src="twitter-dark.jpg" />
+          <img id="facebook" src="facebook-dark.jpg" />
+          <img id="pinterest" src="pinterest-dark.jpg" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+body {
+  background-color: beige;
+}
+
+.main {
+  border: solid 2px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  border: solid 2px;
+  height: 160px;
+}
+
+#links {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: solid 2px;
+  height: 80px;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Pacifico", cursive;
+}
+
+.origin {
+  border: solid 2px;
+  display: flex;
+  justify-content: center;
+}
+
+#bold {
+  background-color: black;
+  color: white;
+}
+
+.pic {
+  border: solid 2px;
+  display: flex;
+  justify-content: center;
+}
+
+#profile-pic {
+  width: 45%;
+  height: 250px;
+}
+
+.content {
+  text-align: center;
+}
+
+.paragraph {
+  width: 40%;
+  margin-left: 30%;
+}
+
+.foot {
+  grid-column: 2/3;
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+}
+
+#copyright {
+  margin-left: 231px;
+}
+
+#twitter {
+  margin-right: 10px;
+  border: solid 3px white;
+}
+
+#facebook {
+  margin-right: 10px;
+  border: solid 3px white;
+}
+
+#pinterest {
+  margin-right: 231px;
+  border: solid 3px white;
+}
