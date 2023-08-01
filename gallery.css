@@ -1,16 +1,27 @@
 body {
-  background-color: beige;
+  background-color: white;
 }
 
-.main {
+/* .main {
   border: solid 2px;
-}
+} */
 
 header {
   display: flex;
   justify-content: center;
-  border: solid 2px;
+  /* border: solid 2px; */
   height: 160px;
+}
+
+#directory {
+  font-weight: bold;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: purple;
+  margin-right: 30px;
 }
 
 #links {
@@ -28,7 +39,7 @@ footer {
 }
 
 .gallery {
-  border: solid 2px;
+  /* border: solid 2px; */
   display: flex;
   justify-content: center;
 }
@@ -36,6 +47,7 @@ footer {
 #bold {
   background-color: black;
   color: white;
+  font-size: 35px;
 }
 
 td {
