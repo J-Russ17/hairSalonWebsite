@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hair Salon</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
       rel="stylesheet"
     />
+    <title>Hair Salon</title>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap");
     </style>
@@ -18,15 +18,15 @@
   <body>
     <div class="main">
       <header>
-        <h1>Bob the Barber</h1>
+        <h1><a href="index.html">Bob the Barber</a></h1>
       </header>
       <div id="links">
         <p id="directory">
           <a href="index.html">HOME</a>
           <a href="about.html">ABOUT</a>
           <a href="gallery.html">GALLERY</a>
-          <a href="https://google.com">BLOG</a>
-          <a href="https://google.com">CONTACT</a>
+          <a href="blog.html">BLOG</a>
+          <a href="contact.html">CONTACT</a>
         </p>
       </div>
       <div class="top-section">
@@ -35,28 +35,35 @@
         <p class="two">Lorem ipsum dolor</p>
         <p class="three">Lorem ipsum dolor sit</p>
         <p class="four">Lorem ipsum dolor</p>
-        <button class="five" href="">Read More</button>
+        <a class="five" href="singleBlog.html">Read More</a>
       </div>
       <div class="bot-section">
         <table>
           <tr>
             <td id="top-left" onclick="handleClick(this)">
-              <img src="portrait1.jpg" />
+              <a href="gallery.html">
+                <img src="portrait1.jpg" />
+              </a>
             </td>
             <td id="top-middle" onclick="handleClick(this)">
-              <img src="portrait2.jpg" />
+              <a href="gallery.html">
+                <img src="portrait2.jpg" />
+              </a>
             </td>
             <td id="top-right" onclick="handleClick(this)">
-              <img src="portrait3.jpg" />
+              <a href="gallery.html">
+                <img src="portrait3.jpg" />
+              </a>
             </td>
           </tr>
-          </table>
-    </div>
-    <div class="person-title">
-      <div class="ipsum">
-      <p id="title1">eget felis</p>
-      <p id="title2">varius duis</p> 
-      <p id="title3">viverra justo</p> 
+        </table>
+      </div>
+      <div class="person-title">
+        <div class="ipsum">
+          <p id="title1"><a href="gallery.html">eget felis</a></p>
+          <p id="title2"><a href="gallery.html">varius duis</a></p>
+          <p id="title3"><a href="gallery.html">viverra justo</a></p>
+        </div>
       </div>
     </div>
     <footer>

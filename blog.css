@@ -1,0 +1,126 @@
+body {
+  background-color: white;
+}
+
+.main {
+  /* border: solid 2px; */
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  /* border: solid 2px; */
+  height: 160px;
+}
+
+#directory {
+  font-weight: bold;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Pacifico", cursive;
+}
+
+#links {
+  display: flex;
+  justify-content: center;
+}
+
+.blog {
+  /* border: solid 2px; */
+  display: flex;
+  justify-content: center;
+}
+
+#bold {
+  background-color: black;
+  color: white;
+  font-size: 35px;
+}
+
+.containerWrap {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  width: 80%;
+  border: 2px solid black;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+h3 {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+button {
+  background: #000;
+  color: #fff;
+  display: inline-block;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  margin-left: 300px;
+  text-decoration: none;
+  width: 150px;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: solid 2px;
+  height: 80px;
+  background-color: black;
+  color: white;
+}
+
+.foot {
+  grid-column: 2/3;
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+}
+
+#copyright {
+  margin-left: 231px;
+}
+
+#twitter {
+  margin-right: 10px;
+  border: solid 3px white;
+}
+
+#facebook {
+  margin-right: 10px;
+  border: solid 3px white;
+}
+
+#pinterest {
+  margin-right: 231px;
+  border: solid 3px white;
+}
