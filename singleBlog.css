@@ -29,15 +29,6 @@ a {
   justify-content: center;
 }
 
-footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  /* border: solid 2px; */
-  height: 80px;
-  background-color: black;
-  color: white;
-}
-
 h1 {
   font-size: 50px;
   font-family: "Pacifico", cursive;
@@ -83,28 +74,33 @@ h3 {
   line-height: 24px;
 }
 
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: solid 2px;
+  height: 80px;
+  background-color: black;
+  color: white;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
 .foot {
   grid-column: 2/3;
   display: flex;
-  justify-content: end;
-  margin-top: 20px;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
 }
 
 #copyright {
-  margin-left: 231px;
+  margin: 0;
 }
 
-#twitter {
-  margin-right: 10px;
-  border: solid 3px white;
-}
-
-#facebook {
-  margin-right: 10px;
-  border: solid 3px white;
-}
-
+#twitter,
+#facebook,
 #pinterest {
-  margin-right: 231px;
-  border: solid 3px white;
+  margin: 0 5px;
+  max-width: 20px;
+  height: auto;
 }
