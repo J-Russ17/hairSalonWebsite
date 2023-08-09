@@ -55,6 +55,7 @@ h1 {
 #profile-pic {
   width: 45%;
   height: 400px;
+  object-fit: cover;
 }
 
 h3 {
@@ -101,4 +102,16 @@ footer {
   max-width: 40px;
   height: auto;
   border: solid 2px white;
+}
+
+@media (max-width: 576px) {
+  #profile-pic {
+    width: 75%;
+  }
+
+  .paragraph {
+    min-width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
